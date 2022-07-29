@@ -10,5 +10,11 @@
    "name": "Joana Silva",
    "username": "70000000000",
    "password": "$2b$08$2CuUOlSrmF.Aqx8macO0c.ETvsSM0Th3GyEU4YZe6Pq0e92ErHG.W"
+  },
+  {
+    "id":  3,
+    "name": "Jonathan Araujo",
+    "username": "12345678911",
+    "password": "$2b$08$2CuUOlSrmF.Aqx8macO0c.ETvsSM0Th3GyEU4YZe6Pq0e92ErHG.W"
   }
  ]
