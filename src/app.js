@@ -4,6 +4,15 @@ const path = require('path');
 const cookieParser = require('cookie-parser')
 const sessionParser = require('express-session');
 const app = express();
+const connection = require('./database/config');
+
+
+connection.authenticate().then(()=>{
+    console.log('Conexao feita com o banco de dados')
+})
+.catch((msgErro)=>{
+    console.log(msgErro)
+})
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: false })); 
