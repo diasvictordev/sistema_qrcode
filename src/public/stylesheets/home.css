@@ -2,6 +2,7 @@ body {
   background: linear-gradient(180deg, #58EBB6 -40%, #116CF4 164.6%) no-repeat;
   background-size: 1280px 780px;
   color: #FFF;
+  font-family: 'Roboto', sans-serif;
 }
 
 
@@ -15,9 +16,21 @@ h1 {
   margin: 20px 15px 40px;
 }
 
-.tabela {
-  
+.button {
+  padding: 7px 15px 7px 15px;
+  border: 0;
+  border-radius: 15px;
+  color: #FFF;
+  background: #116CF4;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
 }
+
+.tabela {
+  margin: 20px;
+}
+
 
 /*section {
   display: flex;
