@@ -1,8 +1,23 @@
-const Sequelize = require('sequelize');
-
-const connection = new Sequelize ('qr_sistema', 'root', '',{
-    host: 'localhost',
-    dialect: 'mysql'
-})
-
-module.exports = connection;
+module.exports = {
+  "development": {
+    "username": "root",
+    "password": "",
+    "database": "sistema_qrcode",
+    "host": "localhost",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": "",
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": "",
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
